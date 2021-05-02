@@ -4,9 +4,10 @@
    
 **CodePen** is an online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets. It functions as an online code editor and open-source learning environment, where developers can create code snippets, called "pens," and test them.
 
- <img style="margin-left : 20%" src="https://i.ibb.co/PhsxhHk/screely-1619965619686.png" />
 
-
+<p align="center">
+  <img  src="https://i.ibb.co/PhsxhHk/screely-1619965619686.png">
+</p>
 
 ### Built With
 * [React JS](https://reactjs.org)
