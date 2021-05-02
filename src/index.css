@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body {
+	margin: 0;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.main {
+	display: flex;
+	flex-direction: row;
+}
+
+.top-pane {
+	background-color: #444857
+}
+
+.mainheader {
+	background-color: #1e1f26;
+	/* margin-top: -1.9%; */
+	height: 7vh;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+.right {
+	margin-top: 1%;
+	margin-left: 0.5%;
+	display: flex;
+	flex-direction: row;
+	font-family: 'Lato', sans-serif;
+	
+}
+.buttons{
+	margin-top: -1%;
+}
+.Topbutton2 {
+	border: 3px solid #444857;
+	background: #444857;
+	padding-left: 8px;
+    padding-right: 8px;
+	font-size: 1rem;
+	font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    -webkit-appearance: none;
+    font-size: 1rem;
+    text-shadow: none;
+    line-height: 1.2;
+    display: inline-block;
+    padding: 10px 16px;
+    margin: 0 10px 0 0;
+    position: relative;
+    border-radius: 4px;
+    border: 3px solid transparent;
+        background: #47cf73;
+    color: #000;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none !important;
+    text-align: center;
+    font-weight: normal !important;
+}
+.Topbutton1 {
+	border: 3px solid #444857;
+	background: #444857;
+	padding-left: 8px;
+    padding-right: 8px;
+	font-size: 1rem;
+	font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    -webkit-appearance: none;
+    font-size: 1rem;
+    text-shadow: none;
+    line-height: 1.2;
+    display: inline-block;
+    padding: 10px 16px;
+    margin: 0 10px 0 0;
+    position: relative;
+    border-radius: 4px;
+    border: 3px solid transparent;
+    background: #444857;
+    color: #fff;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none !important;
+    text-align: center;
+    font-weight: normal !important;
+}
+.right .text h2 {
+	font-weight: 700;
+	overflow: hidden;
+	color: #fff;
+	margin-top: -2%;
+	margin-left: 3%;
+	font-size: 1.3rem;
+
+	width: 200px;
+    text-overflow: visible;
+  
+    vertical-align: middle;
+}
+.right .text h3 {
+	font-weight: 400;
+	margin-top: -5%;
+	margin-left: 3%;
+	width: 300px;
+
+	font-size: 15px;
+	color: #fff;
+	
+}
+.mainheader .logo {
+	width: 33px;
+	height: 33px;
+
+}
+
+.html {
+	margin-left: 12%;
+}
+
+.output {
+	width: 1440px;
+}
+
+.cm-s-material.CodeMirror {
+	background-color: #1D1E22 !important;
+	color: #EEFFFF !important;
+}
+
+.cm-s-material .CodeMirror-gutters {
+	background-color: #1D1E22 !important;
+}
+
+.cm-s-material .CodeMirror-guttermarker,
+.cm-s-material .CodeMirror-guttermarker-subtle,
+.cm-s-material .CodeMirror-linenumber {
+	color: #34363E !important;
+}
+
+.pane {
+	/* height: 100vh; */
+	flex-direction: column;
+	display: flex;
+	width: 44%;
+	height:  90vh;
+	max-width: 25%;
+}
+
+.editor-container {
+	flex-grow: 1;
+	flex-basis: 0;
+	display: flex;
+	flex-direction: column;
+	padding-right: 0.7rem;
+	/* padding-left: 0.5rem; */
+	padding-top: 0.2rem;
+	/* padding-bottom: 0.5rem; */
+	background-color: #444857
+}
+
+.editor-title {
+	background-color: #1A1B1F;
+	padding: 0.5rem 0.5rem 0.5rem 1rem;
+	padding-left: 1rem !important;
+	font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+	white-space: nowrap;
+	font-weight: bold;
+	color: #aaaebc;
+	margin: 0;
+	font-size: 1.2em;
+	display: inline-block;
+	padding-left: 2px;
+	vertical-align: middle;
+}
+
+.code-mirror-wrapper {
+		overflow: hidden;
+		height: 25.5vh;
+		/* border-bottom-right-radius: 0.5rem;
+	border-bottom-left-radius: 0.5rem; */
+	overflow: hidden;
+}
+
+.CodeMirror {
+	height: 100% !important;
+}
+/* width */
+::-webkit-scrollbar {
+	width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #1D1E22; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #666B7A; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #666B7A	; 
+  }	
+  .footer {
+	color: #9b9dad;
+    background: #2c303a;
+    border: 1px solid #444857;
+  }
+  .footer p {
+	font-size: 0.75rem;
+    background: none;
+	border: 0;
+	font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    color: #b7bbc8;
+    padding: 8px;
+    border-radius: 0;
+    margin: 0;
+}
+  
